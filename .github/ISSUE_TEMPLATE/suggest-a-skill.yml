@@ -1,0 +1,30 @@
+name: Suggest a skill
+description: A Claude Code skill, skill pack or plugin that belongs on the list.
+title: "Suggest: "
+labels: [suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A skill is listed when it is among the 15 with the most stars that pass the checks in [CONTRIBUTING.md](https://github.com/selan-ai/top-claude-code-skills/blob/main/CONTRIBUTING.md): a licence, a commit in the last six months, a README that says what it does, and a `SKILL.md` file. Forks, apps, MCP servers and courses are left out.
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/owner/name
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it does
+      description: One or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs
+      description: What it does that the skills on the list do not.
+    validations:
+      required: true
