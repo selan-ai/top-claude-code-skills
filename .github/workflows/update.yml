@@ -1,0 +1,50 @@
+# Fetches the README selan.ai builds from the same data as https://selan.ai/top/claude-code-skills
+# and commits it when it changed. The only credential is this job's own GITHUB_TOKEN.
+name: Update README
+
+on:
+  # 05:47 UTC: after selan.ai's daily refresh has deployed.
+  schedule:
+    - cron: '47 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# A manual run during the scheduled one must not push behind it.
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Fetch the README from selan.ai and commit it if it changed
+        env:
+          URL: https://selan.ai/top/claude-code-skills/github-readme.md
+          TITLE: '# Top Claude Code skills'
+        run: |
+          set -euo pipefail
+          new="$RUNNER_TEMP/README.md"
+          curl -fsS --retry 3 --max-time 30 -o "$new" "$URL"
+          [ -s "$new" ] || { echo "::error::$URL answered an empty file"; exit 1; }
+          # The generator opens with a one-line comment naming itself; the title comes straight after it.
+          first="$(head -n 1 "$new")"
+          case "$first" in '<!--'*'-->') title="$(sed -n 2p "$new")" ;; *) title="$first" ;; esac
+          [ "$title" = "$TITLE" ] || { echo "::error::$URL does not start with \"$TITLE\""; exit 1; }
+          updated="$(sed -n 's/^Updated \(.*\) from GitHub\.$/\1/p' "$new" | head -n 1)"
+          [ -n "$updated" ] || { echo "::error::$URL has no \"Updated <date> from GitHub.\" line"; exit 1; }
+          if cmp -s "$new" README.md; then
+            echo "README.md is already the one for $updated"
+            exit 0
+          fi
+          cp "$new" README.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "chore: update $updated from GitHub"
+          git push origin HEAD:main
