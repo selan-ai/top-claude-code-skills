@@ -3,7 +3,7 @@
 name: Update README
 
 on:
-  # 05:47 UTC: after selan.ai's daily refresh has deployed.
+  # 06:47 UTC: after selan.ai's daily refresh has deployed.
   schedule:
     - cron: '47 6 * * *'
   workflow_dispatch:
