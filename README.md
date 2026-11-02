@@ -3,31 +3,31 @@
 
 The 15 Claude Code skills with the most GitHub stars that pass the checks below, each described from its own README and ranked again every day.
 
-Updated 1 November 2026 from GitHub.
+Updated 2 November 2026 from GitHub.
 
 Charts, filters and the week and month rankings are on [selan.ai/top/claude-code-skills](https://selan.ai/top/claude-code-skills).
 
 ## All time
 
-By GitHub stars on 1 November 2026.
+By GitHub stars on 2 November 2026.
 
 | # | Skill | What it does | Type | Category | Stars |  |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [obra/superpowers](https://github.com/obra/superpowers) | Composable skills that make a coding agent draw out a spec, write a plan, then build it test-first through subagents that review each task. | Plugin | Planning and review | 310,168 | [details](https://selan.ai/top/claude-code-skills/obra-superpowers) |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | Matt Pocock's everyday engineering skills, kept small and composable so you adapt them instead of handing a framework the whole process. | Skill pack | Planning and review | 308,568 | [details](https://selan.ai/top/claude-code-skills/mattpocock-skills) |
-| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | A plugin of 311 skills, 71 agents, hooks and rules that make an agent plan before it builds, test its changes, review its own work and keep what it learns. | Plugin | Planning and review | 294,187 | [details](https://selan.ai/top/claude-code-skills/affaan-m-ecc) |
-| 4 | [anthropics/skills](https://github.com/anthropics/skills) | Anthropic's own skills for Claude, from the Word, PDF, PowerPoint and Excel skills behind its file creation to art, design, web app testing and MCP server building. | Skill pack | Documents | 185,975 | [details](https://selan.ai/top/claude-code-skills/anthropics-skills) |
-| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | One skill that makes the agent write only the code a task needs, without cutting validation, security or tests, plus commands to review a change and audit a repository. | Single skill | Efficiency | 181,611 | [details](https://selan.ai/top/claude-code-skills/dietrichgebert-ponytail) |
-| 6 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | A design skill that generates a design system for a project, choosing from its own catalogue of 79 UI styles, 192 colour palettes and 74 font pairings. | Single skill | Frontend design | 143,491 | [details](https://selan.ai/top/claude-code-skills/nextlevelbuilder-ui-ux-pro-max-skill) |
-| 7 | [garrytan/gstack](https://github.com/garrytan/gstack) | Garry Tan's skills that make Claude Code act as an engineering team: product and architecture review, code review, QA in a real browser and a security audit, each a command. | Skill pack | Planning and review | 138,497 | [details](https://selan.ai/top/claude-code-skills/garrytan-gstack) |
-| 8 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | Makes an agent reply in clipped sentences and read less while code stays exact, and its README reports 33% fewer input tokens across whole Claude Code sessions. | Plugin | Efficiency | 116,557 | [details](https://selan.ai/top/claude-code-skills/juliusbrussee-caveman) |
-| 9 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Addy Osmani's engineering skills for each stage of building software, from spec and plan to test, review and ship, behind nine slash commands. | Plugin | Planning and review | 112,287 | [details](https://selan.ai/top/claude-code-skills/addyosmani-agent-skills) |
-| 10 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Captures what Claude Code does in each session as compressed summaries and makes them available to later sessions, so context carries over. | Plugin | Memory | 108,092 | [details](https://selan.ai/top/claude-code-skills/thedotmack-claude-mem) |
-| 11 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Sets up the command-line tools and a skill that let an agent read and search the web, X, Reddit, YouTube, Bilibili, XiaoHongShu, GitHub and RSS feeds. | Single skill | Web research | 107,286 | [details](https://selan.ai/top/claude-code-skills/panniantong-agent-reach) |
-| 12 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | Skills that give a coding agent an art direction, real photographs and a way to check its work in a browser, so the sites it designs stop looking average. | Skill pack | Frontend design | 107,160 | [details](https://selan.ai/top/claude-code-skills/leonxlnx-taste-skill) |
-| 13 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | A design skill that gives a coding agent 24 commands and 62 detector rules to steer its frontend work away from generic AI-looking design. | Single skill | Frontend design | 98,470 | [details](https://selan.ai/top/claude-code-skills/pbakaus-impeccable) |
-| 14 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | A skill that turns a description, a plan or a repository into an interactive HTML diagram you can explore, change and share. | Single skill | Diagrams and maps | 92,187 | [details](https://selan.ai/top/claude-code-skills/tt-a1i-archify) |
-| 15 | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | A Claude Code plugin that builds a knowledge graph of a codebase, wiki or docs with a multi-agent pipeline and opens a dashboard to explore and search it. | Plugin | Diagrams and maps | 89,449 | [details](https://selan.ai/top/claude-code-skills/egonex-ai-understand-anything) |
+| 1 | [obra/superpowers](https://github.com/obra/superpowers) | Composable skills that make a coding agent draw out a spec, write a plan, then build it test-first through subagents that review each task. | Plugin | Planning and review | 310,751 | [details](https://selan.ai/top/claude-code-skills/obra-superpowers) |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | Matt Pocock's everyday engineering skills, kept small and composable so you adapt them instead of handing a framework the whole process. | Skill pack | Planning and review | 309,395 | [details](https://selan.ai/top/claude-code-skills/mattpocock-skills) |
+| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | A plugin of 311 skills, 71 agents, hooks and rules that make an agent plan before it builds, test its changes, review its own work and keep what it learns. | Plugin | Planning and review | 294,929 | [details](https://selan.ai/top/claude-code-skills/affaan-m-ecc) |
+| 4 | [anthropics/skills](https://github.com/anthropics/skills) | Anthropic's own skills for Claude, from the Word, PDF, PowerPoint and Excel skills behind its file creation to art, design, web app testing and MCP server building. | Skill pack | Documents | 186,439 | [details](https://selan.ai/top/claude-code-skills/anthropics-skills) |
+| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | One skill that makes the agent write only the code a task needs, without cutting validation, security or tests, plus commands to review a change and audit a repository. | Single skill | Efficiency | 182,271 | [details](https://selan.ai/top/claude-code-skills/dietrichgebert-ponytail) |
+| 6 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | A design skill that generates a design system for a project, choosing from its own catalogue of 79 UI styles, 192 colour palettes and 74 font pairings. | Single skill | Frontend design | 143,917 | [details](https://selan.ai/top/claude-code-skills/nextlevelbuilder-ui-ux-pro-max-skill) |
+| 7 | [garrytan/gstack](https://github.com/garrytan/gstack) | Garry Tan's skills that make Claude Code act as an engineering team: product and architecture review, code review, QA in a real browser and a security audit, each a command. | Skill pack | Planning and review | 138,603 | [details](https://selan.ai/top/claude-code-skills/garrytan-gstack) |
+| 8 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | Makes an agent reply in clipped sentences and read less while code stays exact, and its README reports 33% fewer input tokens across whole Claude Code sessions. | Plugin | Efficiency | 116,748 | [details](https://selan.ai/top/claude-code-skills/juliusbrussee-caveman) |
+| 9 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Addy Osmani's engineering skills for each stage of building software, from spec and plan to test, review and ship, behind nine slash commands. | Plugin | Planning and review | 112,600 | [details](https://selan.ai/top/claude-code-skills/addyosmani-agent-skills) |
+| 10 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Captures what Claude Code does in each session as compressed summaries and makes them available to later sessions, so context carries over. | Plugin | Memory | 109,641 | [details](https://selan.ai/top/claude-code-skills/thedotmack-claude-mem) |
+| 11 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | Skills that give a coding agent an art direction, real photographs and a way to check its work in a browser, so the sites it designs stop looking average. | Skill pack | Frontend design | 107,990 | [details](https://selan.ai/top/claude-code-skills/leonxlnx-taste-skill) |
+| 12 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Sets up the command-line tools and a skill that let an agent read and search the web, X, Reddit, YouTube, Bilibili, XiaoHongShu, GitHub and RSS feeds. | Single skill | Web research | 107,726 | [details](https://selan.ai/top/claude-code-skills/panniantong-agent-reach) |
+| 13 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | A design skill that gives a coding agent 24 commands and 62 detector rules to steer its frontend work away from generic AI-looking design. | Single skill | Frontend design | 99,584 | [details](https://selan.ai/top/claude-code-skills/pbakaus-impeccable) |
+| 14 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | A skill that turns a description, a plan or a repository into an interactive HTML diagram you can explore, change and share. | Single skill | Diagrams and maps | 92,469 | [details](https://selan.ai/top/claude-code-skills/tt-a1i-archify) |
+| 15 | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | A Claude Code plugin that builds a knowledge graph of a codebase, wiki or docs with a multi-agent pipeline and opens a dashboard to explore and search it. | Plugin | Diagrams and maps | 89,688 | [details](https://selan.ai/top/claude-code-skills/egonex-ai-understand-anything) |
 
 ## Trending this week
 
@@ -35,11 +35,11 @@ By stars gained, forks gained, commits, people committing and releases in the la
 
 | # | Skill | Stars gained | Forks | Commits | People committing | Releases |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | +72,774 | +675 | 52 | 3 | 3 |
-| 2 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | +5,972 | +931 | 249 | 27 | 0 |
-| 3 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | +5,221 | +421 | 126 | 29 | 6 |
-| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | +5,948 | +616 | 7 | 1 | 1 |
-| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | +5,989 | +474 | 6 | 4 | 1 |
+| 1 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | +5,946 | +922 | 227 | 24 | 0 |
+| 2 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | +73,874 | +666 | 52 | 3 | 0 |
+| 3 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | +6,471 | +495 | 107 | 25 | 6 |
+| 4 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | +5,131 | +560 | 28 | 9 | 1 |
+| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | +6,013 | +614 | 7 | 1 | 1 |
 
 [All 15, this week](https://selan.ai/top/claude-code-skills/this-week)
 
@@ -49,11 +49,11 @@ By forks gained, commits, people committing and releases in the last 30 days.
 
 | # | Skill | Forks | Commits | People committing | Releases |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | +3,508 | 928 | 76 | 0 |
-| 2 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | +1,147 | 818 | 101 | 32 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | +3,312 | 58 | 1 | 3 |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | +2,087 | 145 | 72 | 13 |
-| 5 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | +1,346 | 838 | 27 | 3 |
+| 1 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | +3,525 | 905 | 74 | 0 |
+| 2 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | +1,235 | 820 | 98 | 32 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | +3,303 | 58 | 1 | 3 |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | +2,066 | 137 | 66 | 11 |
+| 5 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | +1,328 | 819 | 26 | 3 |
 
 [All 15, this month](https://selan.ai/top/claude-code-skills/this-month)
 
